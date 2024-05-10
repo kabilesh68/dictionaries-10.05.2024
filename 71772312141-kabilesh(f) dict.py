@@ -12,3 +12,7 @@ for k,v in users.items():
         print('valid username and password')
         exit()
 print('Invalid  username and password')
+output:
+Enter username:Raakhi
+Enter password:newyear200
+valid username and password
