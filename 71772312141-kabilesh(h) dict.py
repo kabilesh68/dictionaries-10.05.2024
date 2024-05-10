@@ -15,4 +15,17 @@ ifs['eth2']={'IP':'5.5.5.5','Status':'down'}
 ifs['wlan2']={'IP':'6.6.6.6','Status':'up'}
 for k,v in ifs.items():
       print(k,v)
-      
+output:
+Enter interface:eth1
+up
+eth0 1.1.1.1
+eth1 2.2.2.2
+Wlan1 4.4.4.4
+Total interfaces= 4
+eth0 {'IP': '1.1.1.1', 'Status': 'up'}
+eth1 {'IP': '2.2.2.2', 'Status': 'up'}
+Wlan0 {'IP': '3.3.3.3', 'Status': 'down'}
+Wlan1 {'IP': '4.4.4.4', 'Status': 'up'}
+eth2 {'IP': '5.5.5.5', 'Status': 'down'}
+wlan2 {'IP': '6.6.6.6', 'Status': 'up'}
+
