@@ -19,3 +19,8 @@ if avg>topper_marks:
 print(students)
 print('topper of the class:',topper_name)
 print('topper marks:',topper_marks)
+output:
+{'dipti':{'total':150,'average':50},'smriti':{'total':165,"average':55},'subodh':{'total':198,'average':66}}
+topper of the class:subodh
+topper marks:66
+        
