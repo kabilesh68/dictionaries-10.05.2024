@@ -7,3 +7,9 @@ for key in prices:
     total+=value
 print(total)
 print('total bill amount=',total)
+output:
+bottles 300
+tiffin 800
+bag 400
+bicycle 10000
+total bill amount=11500
